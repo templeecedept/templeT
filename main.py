@@ -1,5 +1,5 @@
 # import necessary modules
-from neopixel import Neopixel
+from neopixel2 import Neopixel
 import utime
 import random
 import machine
@@ -212,4 +212,3 @@ while True:
     print("mode:",mode)
     # Wait for 1 second
     utime.sleep(1)
-
